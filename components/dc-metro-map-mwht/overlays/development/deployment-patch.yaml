@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: dc-metro-map-mwht
+  namespace: karthik-jk-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:f44341976fe1ab2f425a03ad6920c0059d0854a86fb5df6b86710be76de8a5b4
+        name: container-image
+        resources: {}
+status: {}
