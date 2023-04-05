@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: dc-metro-map-mwht
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:f44341976fe1ab2f425a03ad6920c0059d0854a86fb5df6b86710be76de8a5b4
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:54532bc7bd3ad77c324844cc048a3f8b76847ee82610461f16266919eda8e569
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
