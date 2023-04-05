@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-jg3z
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:tPOTZ-devfile-sample-jg3z
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:0433baaa12ca9286abb1224258a7d0a83a908270dd37ea85a4bc6c42680bf127
         name: my-nodejs
         ports:
         - containerPort: 3001
