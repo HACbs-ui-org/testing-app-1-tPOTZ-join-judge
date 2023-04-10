@@ -13,7 +13,7 @@ spec:
       creationTimestamp: null
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:tPOTZ-node-express-hello-qgkg
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:676c2b1a4d177e3311736e5f009f66f7bd1ddc9dfd400022e8fead5adc95907a
         name: my-nodejs
         resources: {}
 status: {}
