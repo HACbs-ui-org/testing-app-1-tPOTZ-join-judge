@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: demo-app-npbb
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:tPOTZ-demo-app-npbb
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:708df13054f04845d84c28d4e75ed0e9ec9761f9f9ba291934513b31cbc31007
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
