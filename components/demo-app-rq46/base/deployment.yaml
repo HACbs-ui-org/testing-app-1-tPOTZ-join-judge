@@ -23,7 +23,7 @@ spec:
         app.kubernetes.io/instance: demo-app-rq46
     spec:
       containers:
-      - image: quay.io/stonesoupuicluster/uidev-user-workload:tPOTZ-demo-app-rq46
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:9b63627f2ed7a95f6fbe12c75877c45ca7b4cf8568786dd411f1ea0ca1531ec7
         imagePullPolicy: Always
         livenessProbe:
           httpGet:
