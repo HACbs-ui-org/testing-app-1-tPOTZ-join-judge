@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: devfile-sample-code-with-quarkus-qiqd
+  namespace: karthik-jk-tenant
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/stonesoupuicluster/uidev-user-workload@sha256:91c2d3279787463da903748587834d31845ded594232977607d0af1ea2f521b0
+        name: my-java-quarkus
+        resources: {}
+status: {}
